@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 41%, rgba(29,123,221,1) 100%, rgba(6,61,30,0.21332282913165268) 100%);
+background-size: cover;
+}
+
+main{
+
+    margin-left: 30px;
+    
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 25px;
+}
+
+.cabecalho-imagem {
+  width: 50px;
+}
+
+.cabecalho-menu {
+  display: flex;
+  gap: 32px;
+}
+
+.cabecalho-menu-item {
+  font-family: 'Boogaloo', cursive;
+  color: #000000;
+  font-weight: bolder;
+  font-size: 4vh;
+  font-variant: small-caps;
+
+}
+
+.conteudo {
+  margin-bottom: 48px;
+  border-top: 0.4px solid #FFF2E7;
+}
+
+.conteudo-principal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo {
+  font-family: 'Righteous', cursive;
+  font-weight: 400;
+  font-size: 64px;
+  color: #000000;
+}
+
+.conteudo-principal-escrito-subtitulo {
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #000000;
+}
+
+.conteudo-principal-escrito-botao {
+  background-color: #8eb3eb;
+  width: 180px;
+  height: 60px;
+  border: none;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #2F2325;
+  text-decoration: none;
+}
+
+.conteudo-principal-escrito-botao:hover {
+  background-color: rgba(255, 255, 255, 0.53);
+}
+
+.conteudo-principal-imagem {
+  width: 450px;
+  min-width: 100px;
+}
+
+.conteudo-secundario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-top: 48px;
+  margin-right: 10px;
+}
+
+.conteudo-secundario-titulo {
+  border-top: 0.4px solid #FFF2E7;
+  padding-top: 48px;
+  font-family: 'Righteous', cursive;
+  font-weight: 400;
+  font-size: 24px;
+  color: #000000;
+  margin-bottom: 16px;
+}
+
+.conteudo-secundario-paragrafo {
+  font-family: 'Sarala', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #000000;
+}
+
+.rodape {
+    padding: 32px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.rodape-imagem {
+  min-width: 450px;
+  max-width: 20vw;
+  display: block;
+  margin: 0 auto;
+}
+
+.cabecalho-menu-item:hover{
+  background-color: #8eb3eb;
+  border-radius: 50px;
+  width: 70px;
+  text-align: center;
+  text-decoration: solid;
+}
+
